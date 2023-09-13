@@ -3,8 +3,7 @@
 Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license) to the public under the [project's open source license](LICENSE).
 
 This project adheres to a [Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
-
-[code-of-conduct]: CODE_OF_CONDUCT.md
+  /usr/local/rvm/rubies/ruby-3.2.2/lib/ruby/site_ruby/3.2.0/bundler/worker.rb:54:in `loop'
 
 This library's only job is to decide which markup format to use and call out to an external library to convert the markup to HTML (see the [README](README.md) for more information on how markup is rendered on GitHub.com).
 
@@ -52,5 +51,4 @@ If you are the current maintainer of this gem:
 0. Push the new gem release with `rake release`. If you don't have permission to release to rubygems.org, contact one of the existing owners (`gem owners github-markup`) and ask them to add you.
 
 [1]: http://github.com/github/markup/pulls
-[r2h]: lib/github/commands/rest2html
-[r2hc]: lib/github/markups.rb#L51
+[code-of-conduct]: CODE_OF_CONDUCT.md
